@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+main {
+    width: 1140px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* nav bar css */
+header {
+    background-color: #fff8f3;
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
+    background-position: bottom right, 40px;
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.logo h3 {
+    font-size: 45px;
+}
+
+.logo-color-charecter {
+    color: #FD6E0A;
+}
+
+.menu-items ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu-items li {
+    list-style: none;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.primary-btn-2 {
+    background-color: ##fff;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+
+/* Banner section css */
+.banner {
+    display: flex;
+    padding: 0 200px;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.banner-title {
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+/* about section style */
+.about {
+    padding: 130px 0;
+}
+
+.about .description {
+    color: #757575;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.about-info {
+    padding: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.all-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box {
+    border: 1px solid #ddd;
+    padding: 10px 24px;
+}
+
+.info-box p {
+    font-size: 20px;
+    color: #757575;
+
+}
+
+.info-box h4 {
+    font-size: 20px;
+    color: #474747;
+    margin-top: 10px;
+}
+
+
+
+/* What I do section style */
+.what-I-do {
+    padding-bottom: 50px;
+}
+
+.what-I-do .description {
+    font-size: 18px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 90;
+}
+
+.services {
+    display: flex;
+    gap: 24px;
+
+}
+
+.service {
+    padding: 30px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.055);
+}
+
+.service-title {
+    font-size: 20px;
+    color: #000;
+    margin: 20px 0;
+}
+
+.service-description {
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resume section style  */
+.resume {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.resume-details {
+    margin-top: 60px;
+    display: flex;
+    gap: 24px;
+}
+
+.education-title,
+.experience-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+.degree hr,
+.experience hr {
+    border: 1px solid #ddd;
+}
+
+.degree h3,
+.experience h3 {
+    font-size: 25px;
+    color: #474747;
+    margin-top: 20px;
+}
+
+.degree h4,
+.experience h4 {
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.degree p,
+.experience p {
+    font-size: 18px;
+    counter-reset: #757575;
+    margin-bottom: 25px;
+    padding-right: 50px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* contact css  */
+footer {
+    background-color: #FFF8F3;
+    padding: 60px 0;
+
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    width: 1140px;
+    margin: auto;
+}
+
+.social,
+.form {
+    width: 50%;
+}
+
+.contact .section-title {
+    text-align-last: left;
+}
+
+.contact .description {
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.icon a {
+    margin-right: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd !important;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd !important;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    border: none;
+}
+
+
+/* Responsive desing style  */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    /* Header style for mobiel  */
+    nav {
+        padding: 10px;
+    }
+
+    .logo h3 {
+        font-size: 25px;
+    }
+
+    .menu-items ul {
+        gap: 10px;
+    }
+
+    .menu-items li a {
+        font-size: 15px;
+    }
+
+
+    /* Banner style for mobile  */
+
+    main {
+        width: 100%;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        padding-bottom: 51px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .banner-sub-title {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .banner-title {
+        font-size: 35px;
+        margin-top: 1px;
+        margin-bottom: 7px;
+    }
+
+    .primary-btn,
+    .primary-btn-2 {
+        font-size: 14px;
+        padding: 12px 20px;
+        margin-left: 30px;
+    }
+
+    .primary-btn-2 {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    /* about section style for mobile  */
+    .about {
+        padding: 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    element.style {}
+
+    .about .description {
+        font-size: 14px;
+        margin-top: 10px;
+
+    }
+
+    .about-info {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .all-info {
+        display: inline-block;
+
+    }
+
+    /* what i do section style for mobile  */
+
+
+    .what-I-do {
+        padding: 30px 20px;
+    }
+
+    .services {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .what-I-do .description {
+        font-size: 14px;
+
+    }
+
+
+    /* resume section style for mobile  */
+    .resume {
+        padding: 30px 20px;
+    }
+
+    .resume-details {
+        margin-top: 30px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .education-details,
+    .experience-details {
+        border: 1px solid #ddd;
+        padding: 17px;
+    }
+
+    .education-title,
+    .experience-title {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    .degree h3,
+    .experience h3 {
+        font-size: 20px;
+        margin-top: 14px;
+    }
+
+    .degree h4,
+    .experience h4 {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+
+    .degree p,
+    .experience p {
+        font-size: 14px;
+    }
+
+    .resume-btn {
+        font-size: 14px;
+        padding: 12px 20px;
+        margin-left: 0;
+    }
+
+    /* footer section style for mobile  */
+    .contact {
+        width: 100% !important;
+        margin: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer {
+        background-color: #FFF8F3;
+        padding: 30px 20px;
+    }
+
+    .social,
+    .form {
+        width: 100%;
+    }
+
+    input[type="text"],
+    [type="email"] {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+}
+
+
+
+/* Style for tablet or medium deices  */
+.main {
+    width: 100%;
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* banner section style for tablet  */
+    .main{
+        width:100%;
+    }
+
+    nav {
+
+        padding: 10px 20px;
+    }
+
+    .banner {
+        padding: 60px 30px;
+    }
+
+    .banner-sub-title {
+        font-size: 40px;
+    }
+
+    .banner-title {
+        font-size: 68px;
+    }
+
+    .primary-btn {
+        font-size: 16px;
+        padding: 16px 26px;
+    }
+
+    .primary-btn-2 {
+        font-size: 16px;
+        padding: 15px 26px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    /* about section style for tablet  */
+    .about {
+        padding: 0px;
+    }
+    .about-info {
+        padding: 30px;
+        border-radius: 0;
+    }
+
+
+
+
+
+}
+
+}
